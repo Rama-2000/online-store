@@ -4,6 +4,7 @@ import Header from './component/Header'
 import Section from './component/Section'
 import {DataProvider} from './component/Context'
 import Home from './component/Home'
+import Footer from './component/Footer'
 
 
 class App extends React.Component{
@@ -41,6 +42,7 @@ class App extends React.Component{
                       <Header />
                       <Home />
                       <Section />
+                      <Footer />
                     </Route>
                   </Switch>
                 </Router>
